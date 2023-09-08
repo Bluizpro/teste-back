@@ -8,7 +8,7 @@ const sessionId = uuid.v4();
  */
 async function runIntent(projectId, requestText) {
   // A unique identifier for the given session
-  const credentials = require("./credentials.json");
+  const credentials = require("./perfil-bruno.json");
   const sessionClient = new dialogflow.SessionsClient({
     credentials: credentials,
   });
