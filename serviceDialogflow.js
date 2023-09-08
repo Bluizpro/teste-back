@@ -14,7 +14,7 @@ async function runIntent(projectId, requestText) {
   });
 
   const sessionPath = sessionClient.projectAgentSessionPath(
-    "perfil-bruno-vkty",
+    "monsterloja-rkjj",
     sessionId
   );
   const request = {
