@@ -1,5 +1,5 @@
-var router = require('express').Router();
-var runIntent = require("./serviceDialogflow").runIntent;
+import express from 'express';
+var runIntent = require("./serviceDialogflow.cjs").runIntent;
 
 router.post("/requestText", function(req, res){
     (async() => {
